@@ -12,10 +12,10 @@ LittleBrother was developed to do some research on yourself and to see the priva
 You must have Git and Python3 installed on your machine.
 ```
 sudo apt install git python3
-git clone https://github.com/
-cd LittleBrother
+git clone https://github.com/noisytech13/hackall
+cd hackall
 python3 -m pip install -r requirements.txt
-python3 littlebrother.py
+python3 hackall.py
 ```
 
 ## Installation for Termux:
@@ -23,30 +23,30 @@ You must have Git and Python3 installed on your machine.
 ```
 apt update && apt upgrade
 pkg install git python3
-git clone https://github.com/
-cd LittleBrother
+git clone https://github.com/noisytech13/hackall
+cd hackall
 pip3 install -r requirements.txt
-python3 littlebrother.py
+python3 hackall.py
 ```
 
 ## Installation for Windows:
 1. Setup python3 on windows
 2. Get Downloaded:
-	- If you didn't setup `git` on your Windows than Download and unzip LittleBrother (master.zip)
-	- Or if you had setup `git` on your Windows than use this command: `git clone https://github.com/` in Command Prompt or PowerShell.
+	- If you didn't setup `git` on your Windows than Download and unzip hackall (master.zip)
+	- Or if you had setup `git` on your Windows than use this command: `git clone https://github.com/noisytech13/hackall` in Command Prompt or PowerShell.
 3. From Command Prompt or PowerShell give the below command to jump to LittleBrother Directory:
 ```
-cd LittleBrother # If downloaded via git clone command
+cd hackall # If downloaded via git clone command
 ```
 If your Python version 3 in WindowsOS starts with `python` command than use the below command:
 ```
 python -m pip install -r requirements.txt
-python littlebrother.py
+python hackall.py
 ```
 If your Python version 3 in WindowsOS starts with `python3` command than use the below command:
 ```
 python3 -m pip install -r requirements.txt
-python3 littlebrother.py
+python3 hackall.py
 ```
 For more help join Telegram Group: http://t.me/linux_repo
 
@@ -101,10 +101,8 @@ For more help join Telegram Group: http://t.me/linux_repo
 ### Telegram Group: http://t.me/linux_repo
 
 ## Follow on:
-### Twitter: https://twitter.com/AbirHasan2005
-### Instagram: https://instagram.com/AbirHasan2005 
-### Facebook: https://facebook.com/AbirHasan2005
-### GitHub: https://github.com/AbirHasan2005
-
-## Donate for helping me:
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/AbirHasan2005)
+### Twitter: https://twitter.com/noisytech13
+### Instagram: https://instagram.com/noisytech13 
+### Facebook: https://facebook.com/ashwintony.75
+### GitHub: https://github.com/noisytech13
+### youtube: https://www.youtube.com/channel/UC8vFvfodasWA6GAlo1pp_3w
