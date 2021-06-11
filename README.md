@@ -1,12 +1,11 @@
 # hackall
-# LittleBrother v2.1
+# Hackall v2.1
 LittleBrother is an information collection tool (OSINT) which aims to carry out research on a French, Swiss, Luxembourg or Belgian and other person. Also it provides various modules that allow efficient searches world wide. This is more powerful than UserRecon. LittleBrother does not require an API key or login ID.
 
 
 ## Disclaimer:
 LittleBrother was developed to do some research on yourself and to see the private and sensitive information you can leave behind on social media.  I in no way encourage the use of this tool on anyone other than yourself or to use this tool improperly.  The authors of LittleBrother cannot be held responsible for the use of its tool.
 
-![Screenshot](https://github.com/AbirHasan2005/LittleBrother/blob/master/capture.png)
 
 ## Installation for Linux:
 You must have Git and Python3 installed on your machine.
