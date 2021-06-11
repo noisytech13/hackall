@@ -55,7 +55,7 @@ def loadlib():
 		internet = Fore.RED+"X"+Fore.RESET
 
 def loadingHack(importlib):
-	chaine = '[*] Start LittleBrother ...'
+	chaine = '[*] Start hackall ...'
 	charspec = "$*.X^%_/\\#~!?;"
 
 	while importlib.is_alive():
@@ -73,7 +73,7 @@ def loadingHack(importlib):
 
 def loadingUpper(importlib):
 
-	string = "Start littlebrother"
+	string = "Start hackall"
 	string = list(string)
 	nb = len(string)
 
@@ -477,7 +477,7 @@ def times():
 	return times
 
 def searchTwitter():
-	username = input("\n[#][LittleBrother][Lookup][Username:~$ ")
+	username = input("\n[#][noisytech13][Lookup][Username:~$ ")
 	twitool = twitterSearchTool()
 	twitool.getInfoProfile(username)
 
@@ -512,7 +512,7 @@ def searchTwitter():
 	print("[BIO]: %s" % (description))
 
 def searchInstagram():
-	user = input("\n[#][LittleBrother][Lookup][Username:~$ ")
+	user = input("\n[#][noisytech13][Lookup][Username:~$ ")
 
 	insta = instagramGetInfo(user)
 
@@ -576,8 +576,8 @@ def printResult(name, adresse, num):
 
 def emailSpam():
 	try:
-		email = input("[#][LittleBrother][SETool][Your email:~$ ")
-		password = input("[#][LittleBrother][SETool][Your password:~$ ")
+		email = input("[#][noisytech13][SETool][Your email:~$ ")
+		password = input("[#][noisytech13][SETool][Your password:~$ ")
 		print(wait+" Sign in ...")
 
 		if ('@gmail' in email):
@@ -597,12 +597,12 @@ def emailSpam():
 		except:
 			print("\033[91m[!] Incorrect password! \033[92m")
 			sys.exit()
-		spoof_mail = input("[#][LittleBrother][SETool][From:~$ ")
-		target_email = input("[#][LittleBrother][SETool][To:~$ ")
-		nb = input("[#][LittleBrother][SETool][NB Email to send:~$ ")
+		spoof_mail = input("[#][hackall][SETool][From:~$ ")
+		target_email = input("[#][noisytech13][SETool][To:~$ ")
+		nb = input("[#][noisytech13][SETool][NB Email to send:~$ ")
 		nb = int(nb)
 
-		objet = input("[#][LittleBrother][SETool][Objet:~$ ")
+		objet = input("[#][noisytech13][SETool][Objet:~$ ")
 		message = input("[#][Insert your message here > ")
 		send = 1
 
@@ -621,7 +621,7 @@ def emailSpam():
 		print("[!] Error")
 		
 def facebookStalk():
-	profile = input("\n[#][LittleBrother][Lookup][ProfileFB:~$ ")
+	profile = input("\n[#][hackall][Lookup][ProfileFB:~$ ")
 
 	menuStalk = """\033[92m
         TAGS                PEOPLE               PLACES
@@ -1951,11 +1951,11 @@ def menu():
   .....              .--~  .....  `.         Date: %s \033[92m
 .":    "`-..  .    .' ..-'"    :". `         Time: %s \033[92m
 ` `._ ` _.'`"(     `-"'`._ ' _.' '           First coded by \033[95mLulz3xploit\033[92m 
-     ~~~      `.          ~~~                Modified by \033[94noisytech13\033[92m
+     ~~~      `.          ~~~                Modified by \033[94Noisytech13\033[92m
               .'                             Version: [%s\033[92m]--[\033[96mStable\033[92m]
              /                               Internet: [%s\033[92m]
             (                                
-             ^---'                           Welcome to LittleBrother ...
+             ^---'                           Welcome to Hackall ...
 	""" % (Fore.YELLOW+str(today)+Fore.RESET, Fore.YELLOW+times()+Fore.RESET, Fore.CYAN+str(__version__)+Fore.RESET, internet )
 	
 	print(lb_header())
@@ -1967,7 +1967,7 @@ print(mainOption)
 
 try:
 	while True:
-		choix = input("\n[LittleBrother:~$ ")
+		choix = input("\n[hackall:~$ ")
 	
 		if choix.lower() == 'h':
 			print(helpMain)
