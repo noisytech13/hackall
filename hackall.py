@@ -1951,7 +1951,7 @@ def menu():
   .....              .--~  .....  `.         Date: %s \033[92m
 .":    "`-..  .    .' ..-'"    :". `         Time: %s \033[92m
 ` `._ ` _.'`"(     `-"'`._ ' _.' '           First coded by \033[95mLulz3xploit\033[92m 
-     ~~~      `.          ~~~                Modified by \033[94Noisytech13\033[92m
+     ~~~      `.          ~~~                Modified by \033[95Noisytech13\033[92m
               .'                             Version: [%s\033[92m]--[\033[96mStable\033[92m]
              /                               Internet: [%s\033[92m]
             (                                
